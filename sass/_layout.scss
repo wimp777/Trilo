@@ -1,0 +1,30 @@
+// Page Layout Styles
+
+.container {
+    max-width: 130rem;
+    margin: 8rem auto;
+    background-color: var(--Gray-light2);
+    box-shadow: var(--Shadow-dark);
+    
+    min-height: 10rem;
+}
+
+.header {
+    background-color: white;
+    height: 7rem;
+    border-bottom: var(--Gray-light2);
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--Gray-dark1);
+    flex: 0 0 18%;
+}
+
+.hotel-view {
+    background-color: white;
+    flex: 1;
+}
