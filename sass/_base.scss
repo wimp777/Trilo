@@ -1,0 +1,48 @@
+// Colors
+
+:root {
+    --Primary: #eb2f64;
+    --Primary-light: #FF3366;
+    --Primary-dark: #BA265D;
+    --Primary-dark: #BA265D;
+
+    --Gray-light1: #faf9f9;
+    --Gray-light2: #f4f2f2;
+    --Gray-light3: #f0eeee;
+    --Gray-light4: #ccc;
+
+    --Gray-dark1: #333;
+    --Gray-dark2: #777;
+    --Gray-dark3: #999;
+}
+
+// Page wide settings
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--Gray-dark2);
+    background-image: linear-gradient(to right bottom, var(--Primary-light), var(--Primary-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
